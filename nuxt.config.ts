@@ -1,7 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   modules: ['@vite-pwa/nuxt'],
-  pwa: {},
+  pwa: {
+    workbox: {
+      maximumFileSizeToCacheInBytes: 5000000, // 設置為 5MB
+    }
+  },
   ssr: false,
   typescript: {
     shim: false
