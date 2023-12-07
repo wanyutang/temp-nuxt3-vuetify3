@@ -16,10 +16,10 @@
     "vue-tabler-icons": "2.9.0",
     "vue3-apexcharts": "1.4.1",
     "vue3-perfect-scrollbar": "1.6.0",
-    "vuetify": "3.3.19"
-  },
-  "devDependencies": {
+    "vuetify": "3.3.19",
     "@vite-pwa/nuxt": "^0.3.4",
     "nuxt": "3.7.4"
+  },
+  "devDependencies": {
   }
 }
